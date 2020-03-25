@@ -1,3 +1,7 @@
+//Problems met during this task
+/*  1. 第一个printf的时候 有两处地方需要使用BOOK, 漏了一处致使命令无法正常运行 /*
+
+
 #include <stdio.h>
 #define BOOK "War and Peace"
 int main(void)

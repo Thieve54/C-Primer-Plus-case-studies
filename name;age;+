@@ -1,0 +1,31 @@
+Problems met during this task
+/*  1.int mained(void)  => int mained(void)
+    2.scanf("%s\n", name);
+    printf("Nice to see your today, what's your age ?\n");
+    scanf "%s\n" 不该\n it caused need type into 2 line input rather than 1
+ 
+
+
+#include <stdio.h>
+#define B "booboo"
+#define X 10
+int main(void)
+{
+	int age;
+	int xp;
+	char name[40];
+
+	printf("What's your, Sir ?\n ");
+	scanf("%s", name);
+    printf("Nice to see your today, what's your age ?\n");
+	scanf("%d", &age);
+	
+	xp = age + X;
+
+	printf("\nThat's %s!\n You must be at least %d.\n", B, xp);
+
+	
+
+return 0;
+
+}
